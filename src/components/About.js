@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="invisible sm:flex-1 sm:bg-about sm:bg-contain sm:bg-no-repeat md:h-[90vh] md:w-[40vw]
             sm:bg-center sm:visible w-[50vw] ">
-            <Image src={MyImage} alt="" className="max-w-[40vw]" fluid />
+            {/* <Image src={MyImage} alt="" className="max-w-[40vw]" fluid /> */}
           </motion.div>
           {/* {text} */}
           <motion.div
