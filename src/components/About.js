@@ -10,7 +10,7 @@ import { fadeIn } from '../variants';
 //To add link to contact 
 import { Link } from 'react-scroll';
 import Button from './Button';
-import MyImage from '../assets/tania_about.png'
+// import MyImage from '../assets/tania_about.png'
 
 // bg-slate-800
 // bg-stone-700
