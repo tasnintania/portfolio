@@ -10,6 +10,7 @@ import { fadeIn } from '../variants';
 //To add link to contact 
 import { Link } from 'react-scroll';
 import Button from './Button';
+import MyImage from '../assets/tania_about.png'
 
 // bg-slate-800
 // bg-stone-700
@@ -35,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="invisible sm:flex-1 sm:bg-about sm:bg-contain sm:bg-no-repeat md:h-[90vh] md:w-[40vw]
             sm:bg-center sm:visible w-[50vw] ">
-            {/* <Image src={MyImage} alt="" className="max-w-[40vw]" fluid /> */}
+            <Image src={MyImage} alt="" className="max-w-[40vw]" fluid />
           </motion.div>
           {/* {text} */}
           <motion.div
@@ -45,18 +46,18 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 xl:leading-9 md:mt-10">
             <h2 className='h2 text-accent text-5xl lg:text-[5vh] font-tertiary'>Meet me</h2>
-            <h4 className='h4 mb-4 lg:text-[2.5vh]'>I'm a Frontend Engineer with almost 4 years of experience.</h4>
+            <h4 className='h4 mb-4 lg:text-[2.5vh]'>I'm a Software Quality Assurance Engineer with almost 02 years of experience.</h4>
 
             <p className='text-base font-extralight xl:text-[2vh] xl:leading-9 xl:w-[700px]'>
 
-            My professional focus centers on leveraging React and Next.js to create innovative, visually compelling &nbsp;
-              <span className='text-yellow-400'>frontend designs with a strong emphasis on responsiveness.</span> I am experienced in
-              <span className='text-yellow-400'> cross-platform development</span>, and have a keen interest in exploring the intricacies of 
-              <span className='text-yellow-400 '> full-stack development. </span>
-              Additionally, I specialize in integrating
-              <span className='text-yellow-400'>  Headless CMS solutions such as Strapi, Sanity, and Contentful </span> to manage content effectively.
-              I am proficient in utilizing  <span className='text-yellow-400'> Firebase, Firestore database, and storage services  </span> to enhance data management and storage capabilities within applications.
-              <span className='sm:hidden md:visible'> Currently, I'm building projects in Next.js, React.js, and Node.js. Let's collaborate and create something amazing together!</span>
+            I have strong expertise in <span className='text-yellow-400'>Manual Testing,</span>  including requirement analysis, test planning, writing and reviewing test cases, test execution and evaluation, creating detailed test reports, conducting root cause analysis, and reporting bugs using test management tools.
+
+            I use <span className='text-yellow-400'>Xmind</span>  for creating clear and structured <span className='text-yellow-400'>mind maps</span> , and I’m experienced with <span className='text-yellow-400'>web automation testing tools</span>  like <span className='text-yellow-400'>Selenium and Cypress.</span>  For performance testing, I rely on <span className='text-yellow-400'>JMeter</span> , while <span className='text-yellow-400'>Postman</span>  is my go-to tool for <span className='text-yellow-400'>API testing.</span> 
+
+            I am well-versed in <span className='text-yellow-400'>Agile methodologies</span>  and use <span className='text-yellow-400'> Jira</span> for efficient project management and tracking. Additionally, I have a solid understanding of key concepts such as <span className='text-yellow-400'>SDLC, STLC, and OOP.</span> 
+
+            My technical skills include proficiency in programming languages like <span className='text-yellow-400'>HTML, CSS, JavaScript, Java, C, and C++.</span>  I’m also skilled in working with databases such as <span className='text-yellow-400'>MySQL and PostgreSQL</span> , and I effectively use <span className='text-yellow-400'>Git and GitHub</span>  for source and version control.
+          
 
             </p>
             <br />

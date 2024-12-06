@@ -51,8 +51,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[6vh] leading-[0.8] lg:text-[6vh] font-semibold pb-2"
             >
-              <span className="text-cyan-700">I'M</span> Mujahidul{" "}
-              <span>Islam</span>
+              <span className="text-cyan-700">I'M</span> Tania{" "}
+              <span>Khatun</span>
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.3)}
@@ -64,12 +64,12 @@ const Banner = () => {
             >
               <TypeAnimation
                 sequence={[
-                  "Front-End Engineer",
+                  "Software Quality Assurance Engineer",
                   2000,
-                  "React and Next.js Developer",
+                  "QA Tester",
                   2000,
-                  "Front-End Developer",
-                  2000,
+                  // "Front-End Developer",
+                  // 2000,
                 ]}
                 speed={50}
                 className="text-cyan-700 pt-2 font-extrabold text-2xl"
@@ -99,7 +99,7 @@ const Banner = () => {
                 </Link>
               </div>
               <a
-                href="https://flowcv.com/resume/0psai9n22g"
+                href="https://drive.google.com/file/d/1pn9IcgQTQlt2EsMgl2TQix9Dpj6-k1p_/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -118,23 +118,9 @@ const Banner = () => {
               </a>
               {/* {Socials} */}
               <div className="flex text-[20px] gap-x-2 max-w-max mx-auto lg:mx-0">
-                {/* <a href="https://github.com/serverf21" target="_blank" rel="noreferrer">
-                  <FaGithub />
-                </a>
-                <a href="https://www.linkedin.com/in/sarvagya-saxena-a8740195/" target="_blank" rel="noreferrer">
-                  <FaLinkedin />
-                </a>
-                <a href="https://leetcode.com/user0367PG/" target="_blank" rel="noreferrer">
-                  <SiLeetcode />
-                </a>
-                <a href="https://www.hackerrank.com/saxena_sarvagya1" target="_blank" rel="noreferrer">
-                  <SiHackerrank />
-                </a>
-                <a href="https://www.codingninjas.com/studio/profile/b61adbc3-1a17-4936-9b8b-0f1c07b9282b" target="_blank" rel="noreferrer">
-                  <SiCodingninjas />
-                </a> */}
+     
                 <a
-                  href="https://www.linkedin.com/in/md-mujahidul-islam/"
+                  href="https://www.linkedin.com/in/tania44/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -143,7 +129,7 @@ const Banner = () => {
                     alt="LinkedIn Badge"
                   />
                 </a>
-                <a
+                {/* <a
                   href="https://www.upwork.com/freelancers/~0119e1d121c251c417"
                   target="_blank"
                   rel="noreferrer"
@@ -162,10 +148,10 @@ const Banner = () => {
                     src="https://img.shields.io/badge/Fiverr-388E3C?style=for-the-badge&logo=fiverr&logoColor=white"
                     alt="Fiverr Badge"
                   />
-                </a>
+                </a> */}
 
                 <a
-                  href="https://wa.me/+8801849100112"
+                  href="https://wa.me/+8801632885492"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -175,7 +161,7 @@ const Banner = () => {
                   />
                 </a>
                 <a
-                  href="https://www.facebook.com/mujahidul.islam.90410/"
+                  href="https://www.facebook.com/tasnin.tania.3/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -185,7 +171,7 @@ const Banner = () => {
                   />
                 </a>
                 <a
-                  href="skype:live:.cid.1a3f6e3d8988f339?chat"
+                  href="skype:live:.cid.41359e9fd42b4d5a?chat"
                   target="_blank"
                   rel="noreferrer"
                 >
